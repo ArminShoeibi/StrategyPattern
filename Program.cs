@@ -43,3 +43,8 @@ class PNGCompressor : IImageCompressor
 {
     public void Compress(string fileName) => Console.WriteLine($"Compressing PNG: {fileName}");
 }
+
+class GIFCompressor : IImageCompressor
+{
+    public void Compress(string fileName) => Console.WriteLine($"Compressing GIF: {fileName}");
+}
